@@ -191,7 +191,7 @@
         </div>
         <div class="explore">
             <div class="row row-4 justify-content-center">
-                <div class="col-md-7 volunteer rellax" data-rellax-speed="2">
+                <div class="col-md-7 volunteer rellax" data-rellax-speed="1">
                     <div class="text-1">Want to explore more?</div>
                     <div class="text-2">Sign up for a trialog account or ask to see 
                         our platform in action and discover the functionalities.
