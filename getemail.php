@@ -7,7 +7,7 @@ $dbname = "d2hvol779nos4o";
 $port = "5432";
 
 // Create connection
-$conn = pg_connect("host=$host dbname=$dbname user=$user password=$password ");
+$conn = pg_connect("host=$host user=$user password=$password dbname=$dbname");
 
 // Check connection
 if ($conn) {
@@ -35,7 +35,7 @@ if ($result) {
     $message = 'success';
     redirect_to('index.php', $email);
 } else {
-  echo "Error: " . pg_errormessage($conn);
+  echo "Error: " . $sql . pg_errormessage($conn);
 }
 pg_close($conn);
 ?>
