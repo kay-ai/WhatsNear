@@ -1,13 +1,13 @@
 <?php
 
-$servername = "ec2-18-235-109-97.compute-1.amazonaws.com";
-$username = "eodszytidlfunj";
+$host = "ec2-18-235-109-97.compute-1.amazonaws.com";
+$user = "eodszytidlfunj";
 $password = "20e8af9269f5936a79573c106e567ce2f7bc7ebcd1fee2f4fe2f2d98f140681b";
 $dbname = "d2hvol779nos4o";
-
+$port = "5432";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = pg_connect("host=$host user=$user password=$password dbname=$dbname");;
 
 // Check connection
 if ($conn->connect_error) {
@@ -24,10 +24,9 @@ function redirect_to( $location = NULL, $email) {
 $email = $_POST['email'];
 
 //Insert Values
-$sql = "INSERT INTO emails (email)
-VALUES ('$email')";
+$result = pg_query($db_connection, "INSERT INTO emails (email) VALUES ('$email')");
 
-if ($conn->query($sql) === TRUE) {
+if ($result === TRUE) {
     $message = 'success';
     redirect_to('index.php', $email);
 } else {
