@@ -1,11 +1,14 @@
 <?php
-$servername = "localhost";
+/* $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "emaildb";
 
+
+$db = parse_url(getenv("DATABASE_URL")); */
+
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = pg_connect(getenv("DATABASE_URL"));
 
 // Check connection
 if ($conn->connect_error) {
