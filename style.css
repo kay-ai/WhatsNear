@@ -40,7 +40,7 @@ html{
 
 .message-2{
   padding-top: 20px;
-  font-size: 23px;
+  font-size: 70%;
 }
 
 .hide{
@@ -256,6 +256,10 @@ input::placeholder{
     padding: 30px 35px !important;
   }
 
+  #popup{
+    width: 90%;
+  }
+
   .header{
     padding: 0px 50px !important;
     text-align: center;
@@ -341,4 +345,5 @@ input::placeholder{
     padding-left: 70px;
   }
 }
+
 
