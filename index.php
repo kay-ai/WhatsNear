@@ -53,7 +53,7 @@
         <div class="header">
             
             <div class="row">
-                <div class="col-md-6 header-img-2 rellax-non-centered" data-rellax-speed="-2">
+                <div class="col-md-6 header-img-2 rellax-non-centered" data-rellax-speed="-1">
                     <img src="img/g12.png" class="img-fluid">
                 </div> 
                 <div class="col-md-6">
@@ -158,12 +158,12 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="img/volunteering-rafiki.png" class="img-fluid volunteer-img rellax" data-rellax-speed="-2">
+                    <img src="img/volunteering-rafiki.png" class="img-fluid volunteer-img rellax" data-rellax-speed="-1">
                 </div>
             </div>
             <div class="row row-2">
                 <div class="col-md-6 img-show">
-                    <img src="img/volunteering-2.png" class="img-fluid volunteer-img-2 rellax" data-rellax-speed="-2">
+                    <img src="img/volunteering-2.png" class="img-fluid volunteer-img-2 rellax" data-rellax-speed="-1">
                 </div>
                 <div class="col-md-6 volunteer">
                     <div class="text-1">Bye, Bye Fear of Bumping into Things</div>
@@ -173,7 +173,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 img-hide">
-                    <img src="img/volunteering-2.png" class="img-fluid volunteer-img-2 rellax" data-rellax-speed="-2">
+                    <img src="img/volunteering-2.png" class="img-fluid volunteer-img-2 rellax" data-rellax-speed="-1">
                 </div>
             </div>
             <div class="row row-3">
@@ -185,7 +185,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="img/volunteering-3.png" class="img-fluid volunteer-img rellax" data-rellax-speed="-2">
+                    <img src="img/volunteering-3.png" class="img-fluid volunteer-img rellax" data-rellax-speed="-1">
                 </div>
             </div>
         </div>
