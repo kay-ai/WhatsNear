@@ -4,7 +4,7 @@ html{
 
 .this-nav{
   padding: 30px 100px !important;
-  position: fixed;
+  position: fixed !important;
   width: 100%;
   background: #86cdb3 !important;
   z-index: 80;
