@@ -203,7 +203,7 @@
         </div>
     </div>
     <div class="footer">
-        <div class="row rellax" data-rellax-speed="1">
+        <div class="row rellax" data-rellax-speed="-1">
             <div class="col-md-5 pb-3 branding">
                 <img src="img/target.png" alt="logo" class="logo">
                 <span class="brand-text">WhatsNear</span>
