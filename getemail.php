@@ -1,14 +1,13 @@
 <?php
-$DATABASE_URL = parse_url(getenv("DATABASE_URL"));
 
-$servername = $DATABASE_URL["host"];
-$username = $DATABASE_URL["user"];
-$password = $DATABASE_URL["pass"];
-$dbname = ltrim($DATABASE_URL["path"], "/");
+$servername = "ec2-18-235-109-97.compute-1.amazonaws.com";
+$username = "eodszytidlfunj";
+$password = "20e8af9269f5936a79573c106e567ce2f7bc7ebcd1fee2f4fe2f2d98f140681b";
+$dbname = "d2hvol779nos4o";
 
 
 // Create connection
-$conn = pg_connect($servername, $username, $password, $dbname);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
