@@ -4,7 +4,10 @@ html{
 
 .this-nav{
   padding: 30px 100px !important;
-  background-color: #0898637d !important;
+  position: fixed;
+  width: 100%;
+  background: #86cdb3 !important;
+  z-index: 80;
 }
 
 #popup {
@@ -71,7 +74,7 @@ html{
 }
 
 .header{
-  padding: 100px 70px 120px 100px !important;
+  padding: 220px 70px 120px 100px !important;
   background-size: cover;
   height: 100%;
   background-color: #0898637d;
@@ -271,6 +274,7 @@ input::placeholder{
 
   .header-img-2{
     display: unset;
+    margin-top: 70px;
   }
 
   .text-1{
