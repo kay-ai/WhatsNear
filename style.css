@@ -348,6 +348,10 @@ input::placeholder{
   .footer .row .col-md-7{
     padding-left: 70px;
   }
+
+  .branding{
+    display: none;
+  }
 }
 
 
