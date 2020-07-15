@@ -30,6 +30,6 @@ if ($result === TRUE) {
     $message = 'success';
     redirect_to('index.php', $email);
 } else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
+  echo "Error: " . $result . "<br>" . $conn->error;
 }
 ?>
