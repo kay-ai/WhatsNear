@@ -24,7 +24,7 @@ function redirect_to( $location = NULL, $email) {
 $email = $_POST['email'];
 
 //Insert Values
-$result = pg_query($db_connection, "INSERT INTO emails (email) VALUES ('$email')");
+$result = pg_query($conn, "INSERT INTO emails (email) VALUES ('$email')");
 
 if ($result === TRUE) {
     $message = 'success';
