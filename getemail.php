@@ -8,7 +8,7 @@ $dbname = ltrim($DATABASE_URL["path"], "/");
 
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = pg_connect($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
