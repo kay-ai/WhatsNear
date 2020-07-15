@@ -6,23 +6,19 @@ $password = "20e8af9269f5936a79573c106e567ce2f7bc7ebcd1fee2f4fe2f2d98f140681b";
 $dbname = "d2hvol779nos4o";
 $port = "5432";
 
-try{
-  // Create connection
-  $dsn = "pgsql:host=" . $host . ";port=" . $port . ";dbname=" . $dbname . ";user=" . $user . ";password=" . $password;
+// Create connection
+$conn = pg_connect("host=$host dbname=$dbname user=$user password=$password ");
 
 // Check connection
-$pdo = new PDO($dsn, $user, $password);
+if ($conn) {
+  echo 'Connection attempt succeeded.';
+}else {
 
-// display a message if connected to database successfully
-if($pdo){
-  echo "Connected to the <strong>$db</strong> database successfully!";
-         }
- }catch (PDOException $e){
-  // report error message
-  echo $e->getMessage();
- }
+  echo 'Connection attempt failed.';
+  
+  }
 
-/* function redirect_to( $location = NULL, $email) {
+function redirect_to( $location = NULL, $email) {
   if ($location != NULL) {
       header("Location: $location?message=success&email=$email");
       exit;
@@ -32,13 +28,14 @@ if($pdo){
 $email = $_POST['email'];
 
 //Insert Values
-$sql = "INSERT INTO emails (email)
-VALUES ('$email')";
+$sql = "INSERT INTO emails (email) VALUES ('$email')";
+$result = pg_exec($conn, $sql);
 
-if ($conn->query($sql) === TRUE) {
+if ($result) {
     $message = 'success';
     redirect_to('index.php', $email);
 } else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
-} */
+  echo "Error: " . pg_errormessage($conn);
+}
+pg_close($conn);
 ?>
