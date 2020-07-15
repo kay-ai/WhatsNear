@@ -36,23 +36,21 @@
         </div>
     </nav>
     <div class="container-fluid main">
+        <div class="row justify-content-center" id="alert">
+            <div class="overlay"></div>
+            <div id="popup" class=" shadow bg-light">
+                <span class="display-4">Thanks for your Subcribtion!</span> <br>
+                <p class="message-2">
+                    <?php 
+                        if(!empty($_GET['message'])) {
+                            $email = $_GET['email'];
+                            echo "Your email is". " " . "<b>" . $email . "</b>";
+                        }
+                    ?>
+                </p>
+            </div> 
+        </div>
         <div class="header">
-            
-            <div class="row justify-content-center" id="alert">
-                <div class="overlay"></div>
-                <div id="popup" class=" shadow bg-light">
-                    <span class="display-4">Thanks for your Subcribtion!</span> <br>
-                    <p class="message-2">
-                        <?php 
-                            if(!empty($_GET['message'])) {
-                                $email = $_GET['email'];
-                                echo "Your email is". " " . "<b>" . $email . "</b>";
-                            }
-                        ?>
-                    </p>
-                </div> 
-            </div>
-            
             <div class="row">
                 <div class="col-md-6 header-img-2">
                     <img src="img/g12.png" class="img-fluid" alt="" srcset="">
