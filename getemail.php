@@ -28,7 +28,7 @@ function redirect_to( $location = NULL, $email) {
 $email = $_POST['email'];
 
 //Insert Values
-$sql = "INSERT INTO emails (email) VALUES ('$email')";
+$sql = "INSERT INTO emails(email) VALUES ('$email')";
 $result = pg_exec($conn, $sql);
 
 if ($result) {
