@@ -27,10 +27,10 @@
                     <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#features">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#explore">Explore</a>
                 </li>
             </ul>
         </div>
@@ -74,7 +74,7 @@
             </div>
             
         </div>
-        <div class="features">
+        <div class="features" id="features">
             <div class="row">
                 <div class="col-md-6 volunteer">
                     <div class="text-1">Help you get around more easily</div>
@@ -115,7 +115,7 @@
                 </div>
             </div>
         </div>
-        <div class="explore">
+        <div class="explore" id="explore">
             <div class="row row-4 justify-content-center">
                 <div class="col-md-7 volunteer">
                     <div class="text-1">Want to explore more?</div>
