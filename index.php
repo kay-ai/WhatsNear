@@ -55,16 +55,16 @@
         <div class="header">
             
             <div class="row">
-                <div class="col-md-6 header-img-2 rellax-non-centered" data-rellax-speed="-1">
+                <div class="col-md-6 header-img-2 rellax-non-centered" data-rellax-speed="0.5">
                     <img src="img/g12.png" class="img-fluid">
                 </div> 
                 <div class="col-md-6">
-                    <div class=" text-1 mb-4 rellax-non-centered" data-rellax-speed="3">Currently Training on how to <b>See In The Dark</b></div>
-                    <div class=" text-2 rellax-non-centered typewrite" data-period="2000" data-rellax-speed="3" data-type='[ "We’re near.", "Wanna be the first to know when we’ve got it?", "Leave your email and get notified when we do."]'> 
+                    <div class=" text-1 mb-4 rellax-non-centered" data-rellax-speed="2">Currently Training on how to <b>See In The Dark</b></div>
+                    <div class=" text-2 rellax-non-centered typewrite" data-period="2000" data-rellax-speed="0.5" data-type='[ "We’re near.", "Wanna be the first to know when we’ve got it?", "Leave your email and get notified when we do."]'> 
                         <span class="wrap"></span>
                     </div>  
                     <form action="getemail.php" method="post">
-                        <div class="col-md-10 pull-left pt-4 email-div rellax-non-centered" data-rellax-speed="1">
+                        <div class="col-md-10 pull-left pt-4 email-div rellax-non-centered" data-rellax-speed="-0.5">
                             <input type="email"
                                 class="" id="email" name="email" placeholder="Email Address">
                             <button type="submit"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
@@ -152,7 +152,7 @@
         </div>
         <div class="features" id="features">
             <div class="row">
-                <div class="col-md-6 volunteer">
+                <div class="col-md-6 volunteer rellax" data-rellax-speed="1">
                     <div class="text-1">Help you get around more easily</div>
                     <div class="text-2">With GPS and Navigation features, Just like the Volunteers that 
                         help you close the street, WhatsNear can help you move around from place to place. 
@@ -167,7 +167,7 @@
                 <div class="col-md-6 img-show">
                     <img src="img/volunteering-2.png" class="img-fluid volunteer-img-2 rellax" data-rellax-speed="-1">
                 </div>
-                <div class="col-md-6 volunteer">
+                <div class="col-md-6 volunteer rellax" data-rellax-speed="1">
                     <div class="text-1">Bye, Bye Fear of Bumping into Things</div>
                     <div class="text-2">With our state of the art Radar Sensors that can scan 25m radius wide, 
                         you feel a vibration when you’re approaching an obstacle. Your mobile device vibrates 
@@ -179,7 +179,7 @@
                 </div>
             </div>
             <div class="row row-3">
-                <div class="col-md-6 volunteer">
+                <div class="col-md-6 volunteer rellax" data-rellax-speed="1.5">
                     <div class="text-1">Audio Alerts!!</div>
                     <div class="text-2">Using Artificial Intelligence technology, When you’re connected to an 
                         audio device, you get Audio Alerts to guide your path and keep you from bumping into 
@@ -205,7 +205,7 @@
         </div>
     </div>
     <div class="footer">
-        <div class="row rellax" data-rellax-speed="-1">
+        <div class="row rellax" data-rellax-speed="1">
             <div class="col-md-5 pb-3 branding">
                 <img src="img/target-1.png" alt="logo" class="logo">
                 <span class="brand-text">WhatsNear</span>
