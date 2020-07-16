@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="style.css">
     <!-- fontawesome cdn -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
     <nav class="navbar navbar-expand-sm navbar-light this-nav shadow-sm">
-        <a class="navbar-brand" href="#"><img src="img/target.png" class="logo" alt="logo"/><span class="brand-text"> WhatsNear</span> </a>
+        <a class="navbar-brand" href="#"><img src="img/target-1.png" class="logo" alt="logo"/><span class="brand-text"> WhatsNear</span> </a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -58,9 +59,9 @@
                     <img src="img/g12.png" class="img-fluid">
                 </div> 
                 <div class="col-md-6">
-                    <div class=" text-1 mb-3 rellax-non-centered" data-rellax-speed="3">Currently Training on how to <b>See In The Dark</b></div>
-                    <div class=" text-2 rellax-non-centered" data-rellax-speed="2">We’re near. Wanna be the first to know when we’ve got it? 
-                        Leave your email and get notified when we do.
+                    <div class=" text-1 mb-4 rellax-non-centered" data-rellax-speed="3">Currently Training on how to <b>See In The Dark</b></div>
+                    <div class=" text-2 rellax-non-centered typewrite" data-period="2000" data-rellax-speed="3" data-type='[ "We’re near.", "Wanna be the first to know when we’ve got it?", "Leave your email and get notified when we do."]'> 
+                        <span class="wrap"></span>
                     </div>  
                     <form action="getemail.php" method="post">
                         <div class="col-md-10 pull-left pt-4 email-div rellax-non-centered" data-rellax-speed="1">
@@ -265,6 +266,7 @@
         center: false
       });
     </script>
+    <script src="./javascripts/typewriter.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

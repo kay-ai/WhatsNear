@@ -90,6 +90,10 @@ html{
   color: #333333;
 }
 
+.header .text-2{
+  font-size: 24px;
+}
+
 .text-2{
   font-size: 20px;
   line-height: 35px;
@@ -99,7 +103,8 @@ html{
 .email-div{
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   padding-left: 0 !important;
 }
 
