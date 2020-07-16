@@ -319,7 +319,7 @@ input::placeholder{
 
   .email-div{
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 90px !important;
   }
 
   input[type="email"]{
