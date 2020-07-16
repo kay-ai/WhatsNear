@@ -1,6 +1,25 @@
-html{
+html, body{
   scroll-behavior: smooth;
   transition: all 0.5s ease;
+  overflow-x: hidden;
+}
+
+body{
+  overflow-y: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+  height: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #2f5446;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 .this-nav{
@@ -45,10 +64,6 @@ html{
 .message-2{
   padding-top: 20px;
   font-size: 70%;
-}
-
-.hide{
-  display: none;
 }
 
 .brand-text{
@@ -107,7 +122,7 @@ html{
   display: flex;
   flex-direction: row;
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 90px !important;
   padding-left: 0 !important;
 }
 
@@ -209,6 +224,7 @@ input::placeholder{
   line-height: 49px;
   font-weight: 700 !important;
   margin-bottom: 30px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .explore .text-2{
@@ -216,6 +232,7 @@ input::placeholder{
   line-height: 40px;
   font-weight: 500;
   margin-bottom: 35px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .button{
@@ -231,6 +248,117 @@ input::placeholder{
   font-weight: 500;
   margin: 0 auto;
 }
+
+.mobile{
+  padding-top:100px;
+  padding-bottom: 100px;
+  background-color: #dff3eb;
+}
+
+.mobile-text{
+  margin-bottom: -50px;
+}
+
+.mobile .text-2{
+  font-size: 22px;
+  line-height: 40px;
+  padding: 0 50px;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.phones{
+  width: 115%;
+}
+
+.phones.down{
+  margin-top: 200px;
+}
+
+.slider {
+  width: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  
+  
+  
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  
+  /*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+}
+
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+.slides::-webkit-scrollbar-thumb {
+  background: #2f5446;
+  border-radius: 10px;
+}
+
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  background: transparent;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+.slides > div:target {
+/*   transform: scale(0.8); */
+}
+
+.slider > a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+.slider > a:active {
+  top: 1px;
+}
+.slider > a:focus {
+  background: #000;
+}
+
+/* Don't need button navigation */
+@supports (scroll-snap-type) {
+  .slider > a {
+    display: none;
+  }
+}
+
 
 .footer{
   padding: 120px 100px 100px 100px;
@@ -371,6 +499,15 @@ input::placeholder{
 
   .explore{
     padding: 0px 50px 100px 50px;
+  }
+
+  .phones.down{
+    margin-top: 100px ;
+  }
+
+  .phones{
+    margin-top: 100px;
+    width: 90%;
   }
 
   .footer{

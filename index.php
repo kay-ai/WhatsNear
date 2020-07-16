@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="img/target.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- fontawesome cdn -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -200,6 +200,44 @@
                     </div>
                     <a class="btn button" href="#email" role="button">Get Started</a>
                     
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile">
+        <div class="row justify-content-center">
+            <div class="col-md-6 mobile-text">
+                <div class="text-2 text-center">We've got your attention right? Here is a sneek peek at what is ongoing in development</div>
+            </div>
+
+            <div class="col-md-11">
+                <div class="slider">
+                   <!--  <a href="#slide-1">1</a>
+                    <a href="#slide-2">2</a>
+                    <a href="#slide-3">3</a>
+                    <a href="#slide-4">4</a>
+                    <a href="#slide-5">5</a> -->
+
+                    <div class="slides">
+                        <div id="slide-1">
+                            <img class="phones" src="./img/mobile-1.png" alt="">                        
+                        </div>
+                        <div id="slide-2">
+                            <img class="phones down" src="./img/mobile-2.png" alt=""> 
+                        </div>
+                        <div id="slide-3">
+                            <img class="phones" src="./img/mobile-3.png" alt=""> 
+                        </div>
+                        <div id="slide-4">
+                            <img class="phones down" src="./img/mobile-4.png" alt=""> 
+                        </div>
+                        <div id="slide-5">
+                            <img class="phones" src="./img/mobile-5.png" alt=""> 
+                        </div>
+                        <div id="slide-6">
+                            <img class="phones down" src="./img/mobile-6.png" alt=""> 
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
