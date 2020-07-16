@@ -139,7 +139,7 @@ input::placeholder{
 }
 
 .features{
-  padding: 80px 100px 120px 100px;
+  padding: 100px 100px 200px 100px;
   background-color: #00150D;
 }
 
@@ -232,14 +232,15 @@ input::placeholder{
 .footer .text-3{
   color: #333333;
   font-size: 25px;
-  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
   line-height: 30px;
   padding-bottom: 20px;
 }
 
 .footer-ul{
   list-style: none;
-  padding: 0;
+  padding: 5px;
 }
 
 .footer-link{
@@ -319,7 +320,7 @@ input::placeholder{
 
   .features{
     text-align: center;
-    padding: 0px 40px 50px 40px;
+    padding: 0px 40px 150px 40px;
   }
 
   .features .text-1{
@@ -375,6 +376,8 @@ input::placeholder{
   .footer .text-3{
     font-size: 20px;
     padding-bottom: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
   }
 
   .footer-link{
