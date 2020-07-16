@@ -11,11 +11,12 @@
     <!-- fontawesome cdn -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-light this-nav">
+    <nav class="navbar navbar-expand-sm navbar-light this-nav shadow-sm">
         <a class="navbar-brand" href="#"><img src="img/target.png" class="logo" alt="logo"/><span class="brand-text"> WhatsNear</span> </a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -205,11 +206,11 @@
     <div class="footer">
         <div class="row rellax" data-rellax-speed="-1">
             <div class="col-md-5 pb-3 branding">
-                <img src="img/target.png" alt="logo" class="logo">
+                <img src="img/target-1.png" alt="logo" class="logo">
                 <span class="brand-text">WhatsNear</span>
             </div>
             <div class="col-md-7">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-md-4 col-sm-6">
                         <div class="text-3">Quick Links</div>
                         <ul class="footer-ul">
