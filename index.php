@@ -179,7 +179,7 @@
                 </div>
             </div>
             <div class="row row-3">
-                <div class="col-md-6 volunteer rellax" data-rellax-speed="1.5">
+                <div class="col-md-6 volunteer rellax" data-rellax-speed="1">
                     <div class="text-1">Audio Alerts!!</div>
                     <div class="text-2">Using Artificial Intelligence technology, When you’re connected to an 
                         audio device, you get Audio Alerts to guide your path and keep you from bumping into 
