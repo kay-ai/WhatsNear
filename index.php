@@ -66,7 +66,7 @@
                     <form action="getemail.php" method="post">
                         <div class="col-md-10 pull-left pt-4 email-div rellax-non-centered" data-rellax-speed="-0.5">
                             <input type="email"
-                                class="" id="email" name="email" placeholder="Email Address">
+                                class="" id="email" name="email" placeholder="Email Address" required>
                             <button type="submit"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
                         </div>
                     </form>
