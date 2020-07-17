@@ -100,6 +100,13 @@ body::-webkit-scrollbar-track {
   background-color: #0898637d;
 }
 
+#particles-js{
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  top:70px;
+}
+
 .text-1{
   font-size: 60px;
   line-height: 73px;
@@ -332,9 +339,9 @@ input::placeholder{
   align-items: center;
   font-size: 100px;
 }
-.slides > div:target {
+/* .slides > div:target {
 /*   transform: scale(0.8); */
-}
+/* } */ 
 
 .slider > a {
   display: inline-flex;
@@ -429,6 +436,10 @@ input::placeholder{
   .header{
     padding: 0px 50px !important;
     text-align: center;
+  }
+
+  #particles-js{
+    top:150px;
   }
 
   .header-img{
