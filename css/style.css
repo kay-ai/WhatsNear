@@ -88,7 +88,7 @@ body::-webkit-scrollbar-track {
 
 .main{
   padding: 0 !important; 
-  background: url('../img/radar4.png');
+  background: url('../img/radar.png');
   background-position: center;
   background-size: cover;
 }
