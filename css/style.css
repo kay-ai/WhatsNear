@@ -81,13 +81,14 @@ body::-webkit-scrollbar-track {
 
 .nav-link{
   padding-left: 50px !important;
-  font-weight: 600 !important;
+  font-weight: 400 !important;
   color: #333333 !important;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .main{
   padding: 0 !important; 
-  background: url('img/radar.png');
+  background: url('../img/radar4.png');
   background-position: center;
   background-size: cover;
 }
@@ -104,6 +105,7 @@ body::-webkit-scrollbar-track {
   line-height: 73px;
   font-weight: 400 !important;
   color: #333333;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .header .text-2{
@@ -116,6 +118,7 @@ body::-webkit-scrollbar-track {
   font-size: 20px;
   line-height: 35px;
   color: #333333;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .email-div{
@@ -511,7 +514,7 @@ input::placeholder{
   }
 
   .footer{
-    padding: 100px 50px;
+    padding: 50px 50px 10px 50px;
   }
 
   .branding{
@@ -519,14 +522,14 @@ input::placeholder{
   }
 
   .footer .text-3{
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 5px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
   }
 
   .footer-link{
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .footer-ul{
@@ -541,4 +544,3 @@ input::placeholder{
     padding-left: 70px;
   }
 }
-

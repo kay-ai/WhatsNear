@@ -168,7 +168,7 @@
                     <img src="img/volunteering-2.png" class="img-fluid volunteer-img-2 rellax" data-rellax-speed="-1">
                 </div>
                 <div class="col-md-6 volunteer rellax" data-rellax-speed="1">
-                    <div class="text-1">Bye, Bye Fear of Bumping into Things</div>
+                    <div class="text-1">Say bye to the fear of Bumping into Things</div>
                     <div class="text-2">With our state of the art Radar Sensors that can scan 25m radius wide, 
                         you feel a vibration when you’re approaching an obstacle. Your mobile device vibrates 
                         in relation to how fast you are approaching the Obstacle
@@ -212,11 +212,12 @@
 
             <div class="col-md-11">
                 <div class="slider">
-                   <!--  <a href="#slide-1">1</a>
+                    <!-- <a href="#slide-1">1</a>
                     <a href="#slide-2">2</a>
                     <a href="#slide-3">3</a>
                     <a href="#slide-4">4</a>
-                    <a href="#slide-5">5</a> -->
+                    <a href="#slide-5">5</a>
+                    <a href="#slide-6">6</a> -->
 
                     <div class="slides">
                         <div id="slide-1">
@@ -243,7 +244,7 @@
         </div>
     </div>
     <div class="footer">
-        <div class="row rellax" data-rellax-speed="1">
+        <div class="row">
             <div class="col-md-5 pb-3 branding">
                 <img src="img/target-1.png" alt="logo" class="logo">
                 <span class="brand-text">WhatsNear</span>
